@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDoApp</title>
+</head>
+<body>
+<section class="todoapp">
+    <header class="header">
+        <h1>todos</h1>
+        <input class="add-todo" type="text" maxlength="200" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox">
+        <label class="toggle-label" for="toggle-all">Mark all as complete</label>
+        <ul class="todo-list"></ul>
+    </section>
+    <footer class="footer">
+        <span class="todo-count">0 items left</span>
+        <ul class="filters">
+            <li><a href="#/" class="selected">All</a></li>
+            <li><a href="#/active">Active</a></li>
+            <li><a href="#/completed">Completed</a></li>
+            <li><button class="sort">Asc</button></li>
+            <li><button class="sort">Desc</button></li>
+        </ul>
+        <button class="clear-completed">Clear completed</button>
+    </footer>
+</section>
+</body>
+</html>
